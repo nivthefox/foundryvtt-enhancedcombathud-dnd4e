@@ -1,0 +1,49 @@
+{
+  "id": "enhancedcombathud-dnd4e",
+  "title": "Argon - Combat HUD (DND4E)",
+  "description": "DnD4e - Fourth Edition System Argon integration",
+  "version": "1.0.0",
+  "sheetVersion": 1,
+  "authors": [
+    {
+      "name": "nivthefox",
+      "discord": "nivthefox"
+    }
+  ],
+  "compatibility": {
+    "minimum":  "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "enhancedcombathud",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "./enhancedcombathud-dnd4e.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url":		"https://github.com/nivthefox/foundryvtt-enhancedcombathud-dnd4e",
+  "license":	"https://github.com/nivthefox/foundryvtt-enhancedcombathud-dnd4e/LICENSE",
+  "manifest":	"https://github.com/nivthefox/foundryvtt-enhancedcombathud-dnd4e/bundle/module.json",
+  "download":	"https://github.com/nivthefox/foundryvtt-enhancedcombathud-dnd4e/bundle/foundryvtt-enhancedcombathud-dnd4e.zip",
+  "readme":	    "https://github.com/nivthefox/foundryvtt-enhancedcombathud-dnd4e/README.md",
+  "changelog":  "https://github.com/nivthefox/foundryvtt-enhancedcombathud-dnd4e/CHANGELOG.md"
+}
